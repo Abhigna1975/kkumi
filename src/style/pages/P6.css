@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.p6-container{
+    text-align: center;
+    background-image: url("/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 120vh;
+}
+
+.p6-head{
+    padding-top: 200px;
+    color: #E8849A;
+    font-size: 50px;
+}
+
+.p6-text{
+    padding-top: 20px;
+    color: #ef9ce5f3;
+    font-size: 16px;
+}
+
+.p6-btn{
+    padding-top: 30px;
+}
+
+.p6-next{
+    background-color: white;
+    border: 1px solid #E8849A;
+    padding: 10px 105px;
+    border-radius: 30px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #E8849A;
+    margin-bottom: 0%;
+}
+
+.p6-next:focus{
+    color: white;
+    border: 1px solid #E8849A;
+    background-color: #E8849A;
+}
+
+.p6-skin , .p6-height , .p6-body , .p6-face , .p6-wedding{
+    background-color: #E8849A;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+}
+
+.p6-skin:focus , .p6-height:focus , .p6-body:focus , .p6-face:focus,.p6-wedding:focus{
+    background-color: #ffb3c3;
+}
+.p6-skin{
+    padding: 10px 100px;
+}
+.p6-height{
+    padding: 10px 105px;
+}
+.p6-body{
+    padding: 10px 105px;
+}
+.p6-face{
+    padding: 10px 60px;
+}
+.p6-wedding{
+    padding: 10px 90px;
+}

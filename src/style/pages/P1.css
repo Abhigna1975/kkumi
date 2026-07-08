@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.p1-container{
+    text-align: center;
+    background-image: url("/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.p1-head{
+    padding-top: 30px;
+    color: #E8849A;
+    font-size: 55px;
+}
+
+.p1-text{
+    padding-top: 0px;
+    color: #faaff1f3;
+    font-size: 16px;
+}
+.p1-text1{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #ff96f3f3;
+    font-size: 20px;
+    font-weight: 400;
+}
+.p1-btn{
+    padding-top: 10px;
+}
+
+.p1-next{
+    background-color: white;
+    border: 1px solid #E8849A;
+    padding: 10px 60px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #E8849A;
+    margin-bottom: 0%;
+}
+
+.p1-skin , .p1-height , .p1-body , .p1-face{
+    background-color: #E8849A;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+}
+.p1-skin{
+    padding: 10px 50px;
+}
+.p1-height{
+    padding: 10px 59px;
+}
+.p1-body{
+    padding: 10px 42px;
+}
+.p1-face{
+    padding: 10px 45px;
+}
+.p1-error{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: -50px;
+}

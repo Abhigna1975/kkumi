@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.p4-head{
+    height: 135vh;
+    background-image: url("/img.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.p4-heading{
+    padding-top: 150px;
+    color: #E8849A;
+    font-size: 50px;
+}
+.p4-text{
+    padding-top: 10px;
+    color: #ec8edd;
+}
+.p4-img1 , .p4-img2 , .p4-img3 , .p4-img4 , .p4-img5{
+    height: 300px;
+}
+.p4-btn1,.p4-btn2,.p4-btn3,.p4-btn4,.p4-btn5{
+    background-color: #E8849A;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.p4-btn1:focus,.p4-btn2:focus,.p4-btn3:focus,.p4-btn4:focus,.p4-btn5:focus{
+    background-color: #ff97ad;
+}
+
+.p4-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+.p4-btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.p4-btn1{
+    padding: 10px 40px;
+}
+
+.p4-btn2{
+    padding: 10px 65px;
+}
+
+.p4-btn3{
+    padding: 10px 40px;
+}
+
+.p4-btn4{
+    padding: 10px 20px;
+}
+
+.p4-btn5{
+    padding: 10px 60px;
+}
+
+.p4-next{
+    color: #E8849A;
+    padding: 10px 100px;
+    background-color: #ffffff;
+    border: 1px solid #E8849A;
+    border-radius: 30px;
+    margin: 30px auto;
+    width: 68.5%;
+    font-size: 20px;
+}
+
+.p4-next:focus{
+    background-color: #E8849A;
+    color: #ffffff;
+}
+
+.p4-error{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}

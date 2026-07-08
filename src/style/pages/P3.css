@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.p3-head{
+    color: #E8849A;
+    background-image: url("/img.png");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.p3-heading{
+    font-size: 50px;
+    padding-top: 200px;
+}
+.p3-text{
+    font-size: 20px;
+    padding-top: 15px;
+    color: #e294d5;
+}
+.p3-par{
+    padding-top: 50px;
+    position: relative;
+}
+.p3-feet{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    font-size: 30px;
+}
+
+.p3-inches{
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    right: 40%;
+}
+
+.p3-btn1 , .p3-btn2{
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: #E8849A;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+}
+.p3-btn1{
+    position: absolute;
+    top: 100px;
+    left: 37.5%;
+}
+.p3-btn2{
+    position: absolute;
+    top: 100px;
+    right: 38.5%;
+}
+
+.p3-save{
+    position: absolute;
+    top: 70%;
+    right: 39%;
+    padding: 10px 138px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #E8849A;
+    color: #E8849A;
+    font-size: 20px;
+}
+
+.p3-save:focus{
+    color: #ffffff;
+    background-color: #E8849A;
+}
+
+option{
+    background-color: #ffffff;
+    color: #E8849A;
+}
+
+option{
+    background-color: #f9d0db;
+    color: #E8849A;
+}
+
+.p3-error{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 175px;
+}

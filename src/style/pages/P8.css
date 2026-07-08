@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.p8-heading{
+    text-align: center;
+    background-image: url("/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130vh;
+}
+
+.p8-head{
+    padding-top: 200px;
+    color: #E8849A;
+    font-size: 50px;
+}
+
+.p8-text{
+    padding-top: 20px;
+    color: #ef9ce5f3;
+    font-size: 16px;
+}
+
+.p8-btn{
+    padding-top: 30px;
+}
+
+.p8-next{
+    background-color: white;
+    border: 1px solid #E8849A;
+    padding: 10px 170px;
+    border-radius: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #E8849A;
+    margin-bottom: 0%;
+}
+
+.p8-next:focus{
+    color: white;
+    border: 1px solid #E8849A;
+    background-color: #E8849A;
+}
+
+.p8-skin , .p8-height , .p8-body , .p8-face , .p8-wedding , .p8-peach{
+    color: #575757;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid #575757;
+}
+
+.p8-skin:focus , .p8-height:focus , .p8-body:focus , .p8-face:focus,.p8-wedding:focus{
+    background-color: #FFB7C5;
+}
+.p8-skin{
+    padding: 10px 139px;
+    background-color: #E8849A; 
+}
+.p8-height{
+    padding: 10px 140px;
+    background-color: #B5D5F5; 
+}
+.p8-body{
+    padding: 10px 145px;
+    background-color: #E8D5F5; 
+}
+.p8-face{
+    padding: 10px 135px;
+    background-color: #B5EAD7; 
+}
+.p8-wedding{
+    padding: 10px 140px;
+    background-color: #FFF5F0; 
+}
+.p8-peach{
+    padding: 10px 140px;
+    background-color: #FFDAB9; 
+}

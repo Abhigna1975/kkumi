@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.p17-head{
+    text-align: center;
+    background-image: url("/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 155vh;
+}
+
+.p17-heading{
+    padding-top: 200px;
+    color: #E8849A;
+    font-size: 50px;
+}
+
+.p17-text{
+    padding-top: 20px;
+    color: #ef9ce5f3;
+    font-size: 16px;
+}
+
+.p17-btn{
+    position: relative;
+}
+
+.p17-btn1, .p17-btn2,.p17-btn3,.p17-btn4,.p17-btn5, .p17-btn6,.p17-btn7,.p17-btn8{
+    color: white;
+    border: 1px solid #E8849A;
+    border-radius: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    background-color: #E8849A;
+    padding: 10px 70px;
+}
+
+.p17-img1{
+    position: absolute;
+    left: 215px;
+    top: 50px;
+}
+.p17-img2{
+    position: absolute;
+    left: 520px;
+    top: 50px;
+}
+.p17-img3{
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+.p17-img4{
+    position: absolute;
+    left: 1080px;
+    top: 50px;
+}
+.p17-img5{
+    position: absolute;
+    left: 200px;
+    top: 330px;
+}
+.p17-img6{
+    position: absolute;
+    left: 520px;
+    top: 330px;
+}
+.p17-img7{
+    position: absolute;
+    left: 820px;
+    top: 330px;
+}
+.p17-img8{
+    position: absolute;
+    left: 1070px;
+    top: 330px;
+}
+.p17-img1,.p17-img2,.p17-img3,.p17-img4,.p17-img5,.p17-img6,.p17-img7,.p17-img8{
+    height: 200px;
+}
+.p17-btn1{
+    position: absolute;
+    left: 200px;
+    top: 220px;
+}
+.p17-btn2{
+    position: absolute;
+    left: 515px;
+    top: 220px;
+}
+.p17-btn3{
+    position: absolute;
+    left: 805px;
+    top: 220px;
+}
+.p17-btn4{
+    position: absolute;
+    left: 1070px;
+    top: 220px;
+}
+.p17-btn5{
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+.p17-btn6{
+    position: absolute;
+    left: 505px;
+    top: 500px;
+}
+.p17-btn7{
+    position: absolute;
+    left: 805px;
+    top: 500px;
+}
+.p17-btn8{
+    position: absolute;
+    left: 1070px;
+    top: 500px;
+}
+.p17-next{
+    background-color: white;
+    border: 1px solid #E8849A;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #E8849A;
+    width: 73%;
+    position: absolute;
+    top: 620px;
+    left: 200px;
+}
+
+.p17-next:focus{
+    color: white;
+    border: 1px solid #E8849A;
+    background-color: #E8849A;
+}
+
+.p17-btn1:focus , .p17-btn2:focus , .p17-btn3:focus , .p17-btn4:focus,.p17-btn5:focus , .p17-btn6:focus , .p17-btn7:focus , .p17-btn8:focus{
+    background-color: #ffaec0;
+    border: 1px solid #ffffff;
+}
