@@ -31,7 +31,7 @@ export default function App(){
   const [selections,setselections]=useState({})
   return(
     <Usercontext.Provider value={{selections,setselections}}>
-      <BrowserRouter>
+      <BrowserRouter basename="/kkumi/">
         <Routes>
           <Route>
             <Route path="/" element={<><Home/><Nav/></>} name="Home"/>

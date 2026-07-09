@@ -23,11 +23,11 @@ export default function P2(){
             <h1 className="p2-head">Select Your Skin Tone ?</h1>
             <p className="p2-text">Tap to find your perfect look! 🌸</p>
             <div className="p2-img">    
-                <img src="/img1.png" alt="" className="p2-img1"/>
-                <img src="/img2.png" alt="" className="p2-img2"/>
-                <img src="/img3.png" alt="" className="p2-img3"/>
-                <img src="/img4.png" alt="" className="p2-img4"/>
-                <img src="/img5.png" alt="" className="p2-img5"/>
+                <img src="img1.png" alt="" className="p2-img1"/>
+                <img src="img2.png" alt="" className="p2-img2"/>
+                <img src="img3.png" alt="" className="p2-img3"/>
+                <img src="img4.png" alt="" className="p2-img4"/>
+                <img src="img5.png" alt="" className="p2-img5"/>
             </div>
             <div className="p2-btn">
                 <button className="p2-fair" onClick={()=> setselected("Fair")} 

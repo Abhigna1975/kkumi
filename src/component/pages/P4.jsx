@@ -23,11 +23,11 @@ export default function P4(){
             <p className="p4-text">Tap to find your perfect look! 🌸</p>
 
             <div className="p4-img">
-                <img src="/p4-img1.png" alt="" className="p4-img1"/>
-                <img src="/p4-img2.png" alt="" className="p4-img2"/>
-                <img src="/p4-img3.png" alt="" className="p4-img3"/>
-                <img src="/p4-img4.png" alt="" className="p4-img4"/>
-                <img src="/p4-img5.png" alt="" className="p4-img5"/>
+                <img src="p4-img1.png" alt="" className="p4-img1"/>
+                <img src="p4-img2.png" alt="" className="p4-img2"/>
+                <img src="p4-img3.png" alt="" className="p4-img3"/>
+                <img src="p4-img4.png" alt="" className="p4-img4"/>
+                <img src="p4-img5.png" alt="" className="p4-img5"/>
             </div>
 
             <div className="p4-btn">

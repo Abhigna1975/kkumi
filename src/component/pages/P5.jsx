@@ -22,12 +22,12 @@ export default function P5(){
             <p className="p5-text">Tap to find your perfect look! 🌸</p>
 
             <div className="p5-img">
-                <img src="/p5-img1.png" alt="" className="p5-img1"/>
-                <img src="/p5-img2.png" alt="" className="p5-img2"/>
-                <img src="/p5-img3.png" alt="" className="p5-img3"/>
-                <img src="/p5-img4.png" alt="" className="p5-img4"/>
-                <img src="/p5-img5.png" alt="" className="p5-img5"/>
-                <img src="/p5-img6.png" alt="" className="p5-img6"/>
+                <img src="p5-img1.png" alt="" className="p5-img1"/>
+                <img src="p5-img2.png" alt="" className="p5-img2"/>
+                <img src="p5-img3.png" alt="" className="p5-img3"/>
+                <img src="p5-img4.png" alt="" className="p5-img4"/>
+                <img src="p5-img5.png" alt="" className="p5-img5"/>
+                <img src="p5-img6.png" alt="" className="p5-img6"/>
             </div>
 
             <div className="p5-btn">
